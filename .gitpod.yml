@@ -1,8 +1,0 @@
-tasks:
-  - name: Instant Setup
-    init: pnpm install
-    command: pnpm dev
-ports:
-  - port: 1234
-    onOpen: open-browser
-    visibility: public
